@@ -36,5 +36,5 @@ fi
 if [ $alerta -eq 0 ]
         then
                 echo "No hay ficheros en $ruta con menos de $minimo lineas" >> $mensaje
-                mailx -s "[OK] No hay ficheros con menos de $minio lineas" $mail <$mensaje
+                mailx -s "[OK] No hay ficheros con menos de $minimo lineas" $mail <$mensaje
 fi
